@@ -4,7 +4,7 @@
 
 module.exports = (typeof window !== "undefined" ? window.angular : typeof global !== "undefined" ? global.angular : null)
 .module('video-time', [])
-.filter('video-time', require('./video-time'))
+.filter('vTime', require('./video-time'))
 .name;
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})

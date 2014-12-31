@@ -1,6 +1,6 @@
 {
   "name": "angular-video-time",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "AngularJS Filter for displaying a video's current time",
   "main": "index.js",
   "scripts": {
