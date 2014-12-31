@@ -44,4 +44,9 @@ describe("vTime", function() {
     expect(time9001).to.equal("2:30:01");
   });
 
+  it('should accept floating points', function() {
+    var time = $filter('vTime')(10.05);
+    expect(time).to.equal("0:10");
+  });
+
 });
