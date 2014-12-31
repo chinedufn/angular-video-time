@@ -18,6 +18,9 @@ bower install angular-video-time
 ```js
 //add 'video-time' to your module's dependencies
 angular.module('myApp', ['video-time']);
+
+//later in your html
+{{9001 | vTime}} <!-- "2:30:01" -->
 ```
 
 ## To test
