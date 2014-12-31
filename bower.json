@@ -1,0 +1,33 @@
+{
+  "name": "angular-video-time",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chinedufn/angular-video-time",
+  "authors": [
+    "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>"
+  ],
+  "description": "AngularJS Filter for displaying a video's current time",
+  "main": "./src/index.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "video",
+    "time",
+    "filter",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.8"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.8"
+  }
+}
