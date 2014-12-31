@@ -13,6 +13,7 @@ module.exports = (typeof window !== "undefined" ? window.angular : typeof global
 
 module.exports = function() {
   return function(input) {
+    input = Math.floor(input);
 
     //Less than an hour
     if (input < 3600) {
