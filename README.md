@@ -11,6 +11,17 @@ npm install angular-video-time
 
 #using bower
 bower install angular-video-time
-111
+```
 
+## Usage
 
+```js
+//add 'video-time' to your module's dependencies
+angular.module('myApp', ['video-time']);
+```
+
+## To test
+
+```bash
+npm test
+```
