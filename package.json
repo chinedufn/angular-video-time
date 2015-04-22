@@ -1,9 +1,11 @@
 {
   "name": "angular-video-time",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "AngularJS Filter for displaying a video's current time",
-  "main": "index.js",
+  "main": "./release",
   "scripts": {
+    "build": "mkdir release && browserify src/index.js > release/index.js",
+    "prepublish": "build",
     "test": "karma start --single-run"
   },
   "repository": {

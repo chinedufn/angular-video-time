@@ -1,22 +1,19 @@
 angular-video-time
 ==================
 
-Angular filter that converts from seconds to a video-friendly display time. See the Usage section for examples
+AngularJS filter that converts from seconds to a video-friendly display time
 
 ## Installation
 
 ```bash
-#using npm
 npm install angular-video-time
-
-#using bower
-bower install angular-video-time
 ```
 
 ## Usage
 
 ```js
-//add 'video-time' to your module's dependencies
+// Add 'video-time' to your module's dependencies
+require(‘angular-video-time’);
 angular.module('myApp', ['video-time']);
 
 //later in your html
@@ -30,6 +27,8 @@ angular.module('myApp', ['video-time']);
 {{9001 | vTime}} <!-- "2:30:01" -->
 {{9001.999 | vTime}} <!-- "2:30:01" -->
 {{9002 | vTime}} <!-- "2:30:02" -->
+
+{{videoPlayer.currentTime || vTime}} <!-- "13:37" -->
 ```
 
 ## To test
