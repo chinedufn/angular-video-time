@@ -31,8 +31,6 @@ angular.module('myApp', ['video-time']);
 {{videoPlayer.currentTime || vTime}} <!-- "13:37" -->
 ```
 
-## To test
+## See Also
 
-```bash
-npm test
-```
+[video-time](https://github.com/chinedufn/video-time)
